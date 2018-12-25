@@ -1,0 +1,42 @@
+hide/show
+$(selector).hide(speed,callback);
+$(selector).show(speed,callback);
+
+Fade
+$(selector).fadeIn(speed,callback);
+$(selector).fadeOut(speed,callback);
+$(selector).fadeToggle(speed,callback);
+$(selector).fadeTo(speed,opacity,callback);
+
+* fadeTo จะสามารถกำหนดความโปร่งใส element จะยังคงอยู่ไม่หายไป
+
+Slide
+$(selector).slideDown(speed,callback);
+$(selector).slideUp(speed,callback);
+$(selector).slideToggle(speed,callback);
+
+Animation
+$(selector).animate({params},speed,callback);
+params คือ css property ที่เราอยากให้ element นั้นเปลี่ยนแปลง
+{height: 200px; font-size: 72px;}
+
+*จำไว้เสมอว่า position ต้อง absolute, relative, fixed เท่านั้นถึงจะเล่น animation ได้
+*static จะไม่เล่น animation
+
+callback คืออะไร ?
+callback คือ function ที่จะทำงานหลัง animation ทำงานเสร็จสมบูรณ์
+
+$("button").click(function(){
+  $("p").hide("slow", function(){
+    alert("The paragraph is now hidden");
+  });
+});
+
+jQuery Method Chaining
+
+$("#p1").css("color", "red").slideUp(2000).slideDown(2000);
+
+good practice
+$("#p1").css("color", "red")
+  .slideUp(2000)
+  .slideDown(2000);

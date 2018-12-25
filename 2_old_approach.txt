@@ -1,0 +1,2 @@
+การใช้ document.getElementsByClassName('ชื่อ class')
+เป็นวิธีการเขียนแบบ JavaScript อย่างเดียว ไม่มี jquery มาปนอยู่

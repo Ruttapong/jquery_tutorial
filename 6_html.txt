@@ -1,0 +1,52 @@
+jQuery DOM Manipulation
+
+DOM = Document Object Model
+
+HTML ที่เขียนใช่ DOM หรือเปล่า
+- ไม่เชิง
+
+แล้ว DOM คืออะไร ?
+คือ สิ่งที่เขียนลงไป แล้วถูกแปลงผ่าน browser แล้วกลายเป็นสิ่งที่เรียกว่า DOM
+
+inspect ไปดูมันก็เหมือนกัน
+
+example:
+<div id="container"></div>
+<script>
+  var container = document.getElementById("container");
+  container.innerHTML = "New Content!";
+</script>
+
+result:
+<div id="container">New Content!</div>
+
+GET content
+text() - เอาเฉพาะ text
+html() - เอาเฉพาะ html element
+val() - เอาค่าจาก field
+
+ADD content
+append() - ต่อท้าย
+prepend() - ใส่ด้านหน้า
+after() - หลัง element ที่เลือก
+before() - หน้า element ที่เลือก
+
+$("p").append("Some appended text.");
+$("p").prepend("Some prepended text.");
+
+REMOVE content
+remove() - ลบ element ที่เลือก
+empty() - ลบลูกของ element ที่เลือก
+
+$("p").remove(".test");
+$("p").remove(".test, .demo");
+
+CSS
+
+addClass() - ใส่ class
+removeClass() - ลบ class
+toggleClass() - เปิด/ปิด class
+css() - ใส่ style
+
+syntax css()
+css({"propertyname":"value","propertyname":"value",...});

@@ -1,0 +1,5 @@
+AJAX คือ ?
+AJAX = Asynchronous JavaScript and XML.
+
+ajax คือการโหลด data บน webpage ที่ไม่จำเป็นต้อง reload หน้า
+เช่น facebook เวลา comment ก็กด submit ก็จะมี comment ใหม่ขึ้นมาทันที

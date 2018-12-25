@@ -1,0 +1,37 @@
+Traversing คืออะไร ?
+คือการเดินทาง
+
+<div>
+  <p></p>
+  <ul>
+    <li></li>
+    <li><span></span></li>
+  </ul>
+</div>
+
+                      DOM tree
+
+                        <div>
+               ___________|___________
+              |                       |
+             <ul>                     <p>
+   ___________|___________
+  |                       |
+ <li>                    <li>
+  |
+<span>
+
+<div> เป็น parent ของ <ul> กับ <p> และเป็น ancestor ของทั้งหมด
+<ul> เป็น parent ของ <li>, เป็น sibling กับ <p> และเป็น ancestor ของ <span>
+<li> เป็น parent ของ <span> และเป็น sibling กับ <li>
+
+หรือเราจะบอกได้อีกว่า
+
+<ul> เป็น child ของ <div>
+<span> เป็น descendant ของ ul
+
+
+method ที่สำคัญ
+parent()
+children()
+siblings()

@@ -1,0 +1,28 @@
+jQuery คืออะไร
+- jQuery คือ JavaScript Library
+
+jQuery ดีอย่างไร
+- jQuery ช่วยลดความยุ่งยากในการเขียน JavaScript
+- jQuery ง่ายในการเรียน
+
+เราควรจะรู้อะไรมาก่อนเรียน jQuery ?
+- HTML
+- CSS
+- JavaScript
+
+สิ่งที่ jQuery มี
+- HTML/DOM manipulation
+- CSS manipulation
+- HTML event methods
+- Effects and animations
+- AJAX
+- Utilities
+
+ทำไมต้องเป็น jQuery ?
+- Google
+- Microsoft
+- IBM
+- Netflix
+
+"write less, do more"
+ - w3school -

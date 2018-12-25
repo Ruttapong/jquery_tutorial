@@ -1,0 +1,27 @@
+Events คืออะไร
+การกระทำที่ผู้ใช้กระทำแล้ว web page มีการตอบสนองกลับมา
+
+เช่น
+
+เอาเมาส์ไปวางบน element
+กดปุ่มต่างๆ
+
+หลักๆ จะมี
+- Mouse Events
+- Keyboard Events
+- Form Events
+- Document/Window Events
+
+ตัวอย่าง
+
+$('p').click();
+
+$('p').click(function() {
+  do something ...
+});
+
+on คือการกระทำที่เราสามารถใส่ event ได้ 1 หรือมากกว่า 1 event
+
+$('p').on(
+ ...
+)

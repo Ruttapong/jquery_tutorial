@@ -1,0 +1,20 @@
+Syntax ของการนำ element มาใช้
+$(selector).action()
+
+
+ส่วนนี้คืออะไร ?
+
+$(document).ready(function(){
+
+  // jQuery methods go here...
+
+});
+
+
+แบบนี้ก็ได้ สั้นกว่า
+
+$(function(){
+
+  // jQuery methods go here...
+
+});
