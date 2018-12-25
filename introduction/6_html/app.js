@@ -9,7 +9,7 @@ $(document).ready(function(){
   // $("#name").click(function(){
   //   alert("Value: " + $("#test_input").val());
   // });
-  //
+
   // $("#link").click(function(){
   //   alert($("#w3s").attr("href"));
   // });
@@ -19,7 +19,7 @@ $(document).ready(function(){
   //   $("#test1").text("Hello world!");
   // });
   // $("#btn2").click(function(){
-  //   $("#test2").html("<b>Hello world!</b>");
+  //   $("#test2").css("background-color", "yellow");
   // });
   // $("#btn3").click(function(){
   //   $("#test3").val("Dolly Duck");

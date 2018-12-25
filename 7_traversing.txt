@@ -33,5 +33,4 @@ Traversing คืออะไร ?
 
 method ที่สำคัญ
 parent()
-children()
 siblings()

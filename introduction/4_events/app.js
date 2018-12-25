@@ -7,19 +7,19 @@ $(document).ready(function(){
   //   $(this).hide();
   // });
 
-  // $("p").mouseenter(function(){
+  // $("span").mouseenter(function(){
   //   alert("You entered p1!");
   // });
 
-  // $("p").on({
-  //   mouseenter: function(){
-  //     $(this).css("background-color", "lightgray");
-  //   },
-  //   mouseleave: function(){
-  //     $(this).css("background-color", "lightblue");
-  //   },
-  //   click: function(){
-  //     $(this).css("background-color", "yellow");
-  //   }
-  // });
+  $("p").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+    },
+    click: function(){
+      $(this).css("background-color", "yellow");
+    }
+  });
 });
